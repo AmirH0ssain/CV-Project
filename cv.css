@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightyellow;
+	font-family: raleway;
+	color: white;
+}
+p{
+	font-size: 20px;
+}
+.container{
+	max-width: 1000px;
+	background-color: darkslategray;
+	margin:0 auto;
+	padding: 15px;
+}
+header{
+	
+}
+.Cv{
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.profile{
+	width: 100px;
+	height: 100px;
+	border: 2px solid white;
+	border-radius: 50%;
+	float: left;
+}
+.header-bio{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: white;
+}
+.header-contact{
+		float: right;
+		padding: 30px;
+		font-size: 18px;
+}
+.header-contact a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.header-contact a:hover{
+	color: tomato;
+}
+.div-clear{
+	clear: both;
+}
+hr{
+	border: dotted white 3px;
+	width: 100%;
+	margin:  20px auto;
+	border-bottom: none;
+}
+
+/*--Personal Section---*/
+#personal-section{
+	
+}
+.content{
+	margin-bottom: 30px;
+}
+.left-div{
+	width: 30%;
+	float: left;
+}
+.right-div{
+	width: 70%;
+	float: left;
+}
+.common-hr{
+	border: solid white 1px;
+	border-bottom: none;
+	width: 100%;
+	margin: 20px auto;
+}
+.right-div p{
+	text-align: justify;
+}
+
+/*--Education Section---*/
+
+.edu-tamplate-left{
+	float: left;
+	width: 45%;
+}
+.edu-tamplate-right{
+	float: right;
+	width: 45%;
+}
+.hsc{
+	float: left;
+	margin-top: 40px;
+}
+
+/*--Footer Section---*/
+
+.bottom{
+	background-color: dimgray;
+	text-align: center;
+	padding: 10px;
+}
+.bottom a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+.bottom a:hover{
+	color: black;
+}
+.bottom p{
+	color: white;
+	margin-top: 20px;
+}
